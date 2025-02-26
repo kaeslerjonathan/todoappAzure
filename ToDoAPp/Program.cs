@@ -3,8 +3,8 @@
     internal class Program
     {
         static string filePath = "todo_list.csv";
-        static List<string> tasks = new List<string>();
-        static List<string> history = new List<string>();
+        static IList<string> tasks = new List<string>();
+        static IList<string> history = new List<string>();
 
         static void Main()
         {
@@ -61,7 +61,7 @@
             Console.WriteLine("Verlauf:");
             for(int i = 0; i < history.Count; i++)
             {
-                Console.WriteLine($"{i}: {history[i]}");
+                Console.WriteLine($"{i+1}: {history[i]}");
             }
         }
 
