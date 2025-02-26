@@ -1,0 +1,30 @@
+C:\Users\1234\Desktop\To do app m324\TodoApp\ToDoAPp\ToDoAPp\bin\Debug\net6.0\ToDoAPp.exe
+C:\Users\1234\Desktop\To do app m324\TodoApp\ToDoAPp\ToDoAPp\bin\Debug\net6.0\ToDoAPp.deps.json
+C:\Users\1234\Desktop\To do app m324\TodoApp\ToDoAPp\ToDoAPp\bin\Debug\net6.0\ToDoAPp.runtimeconfig.json
+C:\Users\1234\Desktop\To do app m324\TodoApp\ToDoAPp\ToDoAPp\bin\Debug\net6.0\ToDoAPp.dll
+C:\Users\1234\Desktop\To do app m324\TodoApp\ToDoAPp\ToDoAPp\bin\Debug\net6.0\ToDoAPp.pdb
+C:\Users\1234\Desktop\To do app m324\TodoApp\ToDoAPp\ToDoAPp\obj\Debug\net6.0\ToDoAPp.csproj.AssemblyReference.cache
+C:\Users\1234\Desktop\To do app m324\TodoApp\ToDoAPp\ToDoAPp\obj\Debug\net6.0\ToDoAPp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1234\Desktop\To do app m324\TodoApp\ToDoAPp\ToDoAPp\obj\Debug\net6.0\ToDoAPp.AssemblyInfoInputs.cache
+C:\Users\1234\Desktop\To do app m324\TodoApp\ToDoAPp\ToDoAPp\obj\Debug\net6.0\ToDoAPp.AssemblyInfo.cs
+C:\Users\1234\Desktop\To do app m324\TodoApp\ToDoAPp\ToDoAPp\obj\Debug\net6.0\ToDoAPp.csproj.CoreCompileInputs.cache
+C:\Users\1234\Desktop\To do app m324\TodoApp\ToDoAPp\ToDoAPp\obj\Debug\net6.0\ToDoAPp.dll
+C:\Users\1234\Desktop\To do app m324\TodoApp\ToDoAPp\ToDoAPp\obj\Debug\net6.0\refint\ToDoAPp.dll
+C:\Users\1234\Desktop\To do app m324\TodoApp\ToDoAPp\ToDoAPp\obj\Debug\net6.0\ToDoAPp.pdb
+C:\Users\1234\Desktop\To do app m324\TodoApp\ToDoAPp\ToDoAPp\obj\Debug\net6.0\ToDoAPp.genruntimeconfig.cache
+C:\Users\1234\Desktop\To do app m324\TodoApp\ToDoAPp\ToDoAPp\obj\Debug\net6.0\ref\ToDoAPp.dll
+C:\Users\1234\Source\Repos\TodoApp\ToDoAPp\bin\Debug\net6.0\ToDoApp.exe
+C:\Users\1234\Source\Repos\TodoApp\ToDoAPp\bin\Debug\net6.0\ToDoApp.deps.json
+C:\Users\1234\Source\Repos\TodoApp\ToDoAPp\bin\Debug\net6.0\ToDoApp.runtimeconfig.json
+C:\Users\1234\Source\Repos\TodoApp\ToDoAPp\bin\Debug\net6.0\ToDoApp.dll
+C:\Users\1234\Source\Repos\TodoApp\ToDoAPp\bin\Debug\net6.0\ToDoApp.pdb
+C:\Users\1234\Source\Repos\TodoApp\ToDoAPp\obj\Debug\net6.0\ToDoApp.csproj.AssemblyReference.cache
+C:\Users\1234\Source\Repos\TodoApp\ToDoAPp\obj\Debug\net6.0\ToDoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1234\Source\Repos\TodoApp\ToDoAPp\obj\Debug\net6.0\ToDoApp.AssemblyInfoInputs.cache
+C:\Users\1234\Source\Repos\TodoApp\ToDoAPp\obj\Debug\net6.0\ToDoApp.AssemblyInfo.cs
+C:\Users\1234\Source\Repos\TodoApp\ToDoAPp\obj\Debug\net6.0\ToDoApp.csproj.CoreCompileInputs.cache
+C:\Users\1234\Source\Repos\TodoApp\ToDoAPp\obj\Debug\net6.0\ToDoApp.dll
+C:\Users\1234\Source\Repos\TodoApp\ToDoAPp\obj\Debug\net6.0\refint\ToDoApp.dll
+C:\Users\1234\Source\Repos\TodoApp\ToDoAPp\obj\Debug\net6.0\ToDoApp.pdb
+C:\Users\1234\Source\Repos\TodoApp\ToDoAPp\obj\Debug\net6.0\ToDoApp.genruntimeconfig.cache
+C:\Users\1234\Source\Repos\TodoApp\ToDoAPp\obj\Debug\net6.0\ref\ToDoApp.dll
