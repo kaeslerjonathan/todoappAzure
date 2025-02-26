@@ -17,7 +17,8 @@
                 Console.WriteLine("2. Aufgabe entfernen");
                 Console.WriteLine("3. Aufgaben anzeigen");
                 Console.WriteLine("4. Aufgaben speichern");
-                Console.WriteLine("5. Beenden");
+                Console.WriteLine("5. Verlauf anzeigen");
+                Console.WriteLine("6. Beenden");
                 Console.Write("Auswahl: ");
 
                 string choice = Console.ReadLine();
@@ -37,12 +38,30 @@
                         Console.WriteLine("Aufgaben gespeichert!");
                         break;
                     case "5":
+                        ShowHistory();
+                        break;
+                    case "6":
                         SaveTasks();
                         return;
                     default:
                         Console.WriteLine("Ungültige Auswahl!");
                         break;
                 }
+            }
+        }
+
+        static void ShowHistory()
+        {
+            if(history.Count == 0)
+            {
+                Console.WriteLine("Es wurden noch keine Aktionen getätigt");
+                return;
+            }
+
+            Console.WriteLine("Verlauf:");
+            for(int i = 0; i < history.Count; i++)
+            {
+                Console.WriteLine($"{i}: {history[i]}");
             }
         }
 
@@ -66,7 +85,7 @@
             if (!string.IsNullOrWhiteSpace(task))
             {
                 tasks.Add(task);
-                history.Add($"Aufgabe "{task}" hinzugefügt");
+                history.Add($"Aufgabe {task} hinzugefügt");
                 Console.WriteLine("Aufgabe hinzugefügt!");
             }
         }
@@ -77,7 +96,7 @@
             Console.Write("Nummer der zu löschenden Aufgabe: ");
             if (int.TryParse(Console.ReadLine(), out int index) && index > 0 && index <= tasks.Count)
             {
-                history.Add($"Aufgabe "{tasks[index-1]}" entfernt");
+                history.Add($"Aufgabe {tasks[index-1]} entfernt");
                 tasks.RemoveAt(index - 1);
                 Console.WriteLine("Aufgabe entfernt!");
             }
