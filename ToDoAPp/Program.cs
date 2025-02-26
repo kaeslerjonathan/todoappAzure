@@ -4,6 +4,7 @@
     {
         static string filePath = "todo_list.csv";
         static List<string> tasks = new List<string>();
+        static List<string> history = new List<string>();
 
         static void Main()
         {
@@ -65,6 +66,7 @@
             if (!string.IsNullOrWhiteSpace(task))
             {
                 tasks.Add(task);
+                history.Add($"Aufgabe "{task}" hinzugefügt");
                 Console.WriteLine("Aufgabe hinzugefügt!");
             }
         }
@@ -75,6 +77,7 @@
             Console.Write("Nummer der zu löschenden Aufgabe: ");
             if (int.TryParse(Console.ReadLine(), out int index) && index > 0 && index <= tasks.Count)
             {
+                history.Add($"Aufgabe "{tasks[index-1]}" entfernt");
                 tasks.RemoveAt(index - 1);
                 Console.WriteLine("Aufgabe entfernt!");
             }
