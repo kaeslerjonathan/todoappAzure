@@ -1,9 +1,11 @@
-﻿namespace ToDoApp
+﻿using System.Threading.Tasks;
+
+namespace ToDoApp
 {
-    internal class Program
+    public class Program
     {
         static string filePath = "todo_list.csv";
-        static IList<string> tasks = new List<string>();
+        public static IList<string> tasks = new List<string>();
         static IList<string> history = new List<string>();
 
         static void Main()
@@ -78,14 +80,19 @@
             File.WriteAllLines(filePath, tasks);
         }
 
+        public static void AddTaskToTaskList(string task)
+        {
+            tasks.Add(task);
+            history.Add($"Aufgabe {task} hinzugefügt");
+        }
+
         static void AddTask()
         {
             Console.Write("Neue Aufgabe: ");
             string task = Console.ReadLine();
             if (!string.IsNullOrWhiteSpace(task))
             {
-                tasks.Add(task);
-                history.Add($"Aufgabe {task} hinzugefügt");
+                AddTaskToTaskList(task);
                 Console.WriteLine("Aufgabe hinzugefügt!");
             }
         }
