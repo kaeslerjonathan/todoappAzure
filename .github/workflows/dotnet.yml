@@ -23,11 +23,11 @@ jobs:
         
     - name: Restore dependencies
       run: dotnet restore
-      working-directory: ./todoapp
+      working-directory: todoapp
         
     - name: Build
       run: dotnet build --no-restore
-      working-directory: ./todoapp
+      working-directory: todoapp
       
     #- name: Test
     #  run: dotnet test --no-build --verbosity normal
